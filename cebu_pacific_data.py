@@ -39,3 +39,4 @@ data_2.columns = columns_1
 
 #Save as csv 
 data_2.to_csv(path+"cebu_pacific_"+obs_date+".csv", header = True, index = None)
+print "I am done!"
